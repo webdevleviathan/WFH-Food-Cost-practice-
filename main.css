@@ -10,7 +10,7 @@ body {
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
-html {
+body {
   --s:67px; /* shape size */
   --m:4px;  /* line thickness */
 
