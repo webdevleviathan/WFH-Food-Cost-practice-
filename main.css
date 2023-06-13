@@ -6,13 +6,13 @@ body {
 
 @media screen and (max-width: 992px) {
   body {
-    background-color: #d4ade7;
+    background-color: #d9b9e9;
   }
 }
 
 @media screen and (max-width: 600px) {
   body {
-    background-color: #b76bdd;
+    background-color: #d1a9e6;
   }
 }
 
