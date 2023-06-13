@@ -20,6 +20,13 @@ header {
   background-color: #87da8a;
   padding: 5px;
   text-align: center;
+  font-family: Geologica, sans-serif;
+font-size: large;
+}
+
+h1 {
+background-color: #87da8a;
+padding: 0.5px;
 }
 
 aside {
@@ -39,6 +46,13 @@ aside {
   margin-top: 10px;
   margin-bottom: 5px;
 }
+.item:hover {
+  background-color: #a9caaa;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
 
 .item h2 {
   margin-top: 0;
@@ -47,8 +61,7 @@ aside {
 
 .download-button {
   display: inline-block;
-  background-color: #0e8540
-  ;
+  background-color: #0e8540;
   color: #fff;
   padding: 10px 20px;
   border-radius: 5px;
@@ -57,7 +70,7 @@ aside {
 }
 
 .download-button:hover {
-  background-color: #5ca98c;
+  background-color: #229e6e;
 }
 
 footer {
