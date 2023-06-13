@@ -1,29 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Geologica:wght@700&display=swap');
 
+body {
+  background-color: #faf8fb;
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    background-color: #d4ade7;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: #b76bdd;
+  }
+}
 
 header {
-  background-color: #c1d6b4;
-  color: #fff;
-  padding: 20px;
+  background-color: #87da8a;
+  padding: 5px;
   text-align: center;
-  font-family: Fraunces, sans-serif;
 }
 
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f8ea;
-}
-
-.container {
-  max-width: 600px;
-  margin: 0 auto;
+aside {
+  background-color: #87da8a;
   padding: 20px;
 }
-
-h1 {
-  color: #333;
-}
-
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -31,9 +33,11 @@ h1 {
 }
 
 .item {
-  background-color: #d7e9cc;
-  padding: 20px 20px;
+  background-color: #87da8a;
+  padding: 20px;
   border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 
 .item h2 {
@@ -43,7 +47,8 @@ h1 {
 
 .download-button {
   display: inline-block;
-  background-color: #84c1a9;
+  background-color: #0e8540
+  ;
   color: #fff;
   padding: 10px 20px;
   border-radius: 5px;
@@ -55,48 +60,8 @@ h1 {
   background-color: #5ca98c;
 }
 
-aside {
-  background-color: #f2f2f2;
-  padding: 20px;
-  width: 200px;
-}
-
-aside ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-aside ul li {
-  margin-bottom: 10px;
-}
-
-aside ul li a {
-  color: #333;
-  text-decoration: none;
-}
-
-aside ul li a:hover {
-  color: #000;
-  font-weight: bold;
-}
-
 footer {
- background-color: #c1d6b4;
-  color: #0e0a0a;
-  padding: 20px;
+  background-color: #87da8a;
+  padding: 5px;
   text-align: center;
-}
-
-.contact-info {
-  margin-bottom: 20px;
-}
-
-.contact-info h3 {
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-
-.contact-info p {
-  font-size: 14px;
-  margin-bottom: 5px;
 }
