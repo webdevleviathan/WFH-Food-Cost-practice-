@@ -40,15 +40,14 @@ aside {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
-  padding: 10px 20px;
 }
 
 .item {
   background-color: #87da8a;
+  padding: 20px;
   border-radius: 10px;
   margin-top: 10px;
   margin-bottom: 5px;
-  padding: 10px 20px;
 
   /*
   .item:a {
