@@ -71,11 +71,7 @@ body {
         background-color: #229e6e;
       }
       
-      footer {
-        background-color: #87da8a;
-        padding: 5px;
-        text-align: center;
-      }
+    
       
       
       
@@ -98,4 +94,10 @@ body {
       }
       input {
         display: none;
+      }
+
+      footer {
+        background-color: #87da8a;
+        padding: 5px;
+        text-align: center;
       }
