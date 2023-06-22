@@ -1,117 +1,29 @@
-
-body {
-  background-color: #333;
-  color: whitesmoke;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@700&display=swap');
-
-
-@media screen and (max-width: 992px) {
-  body {
-    background-color: #d9b9e9;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  body {
-    background-color: #d1a9e6;
-  }
-}
-
-header {
-  background-color: #87da8a;
-  padding: 5px;
-  text-align: center;
-  font-family: Geologica, sans-serif;
-font-size: large;
-}
-
-h1 {
-background-color: #87da8a;
-padding: 0.5px;
-}
-
-aside {
-  background-color: #87da8a;
-  padding: 20px;
-}
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-}
-
-.item {
+.item2 {
   background-color: #87da8a;
   padding: 20px;
   border-radius: 10px;
   margin-right: 10px;
   margin-bottom: 10px;
-
-
-  /*
-  .item:a {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
-  }
-  */
 }
-.item:hover {
-  background-color: #a9caaa;
+
+.item2:a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top:5px;
+
+}
+
+.item2:hover {
+  background-color: #87da8a;
   padding: 20px;
   border-radius: 10px;
-  margin-top: 10px;
-  margin-bottom: 5px;
-}
-
-.item h2 {
-  margin-top: 10px;
+  margin-right: 10px;
   margin-bottom: 10px;
 }
 
-.download-button {
-  display: inline-block;
-  background-color: #0e8540;
-  color: #fff;
-  padding: 10px 20px;
-  border-radius: 5px;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
-}
-
-.download-button:hover {
-  background-color: #229e6e;
-}
-
-footer {
-  background-color: #87da8a;
-  padding: 5px;
-  text-align: center;
-}
-
-
-
-.custom-file-upload {
-  display: inline-block;
-  background-color: #0e8540;
-  color: #fff;
-  padding: 10px 20px;
-  border-radius: 5px;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
-}
-
-.custom-file-upload:hover {
-  background-color: #229e6e;
-}
-
-.custom-file-upload i {
-  margin-right: 5px;
-}
-input {
-  display: none;
+.item2 h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
