@@ -50,3 +50,33 @@ body {
     text-align: center;
     color: white;
   }
+
+  .item {
+    background-color: #87da8a;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.item:a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top:5px;
+
+  }
+
+  .item:hover {
+    background-color: #87da8a;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .item h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
