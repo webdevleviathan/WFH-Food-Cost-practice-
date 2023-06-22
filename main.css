@@ -1,11 +1,8 @@
-
-body {
-  background-color: #333;
-  color: whitesmoke;
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Geologica:wght@700&display=swap');
 
+body {
+  background-color: #faf8fb;
+}
 
 @media screen and (max-width: 992px) {
   body {
@@ -18,29 +15,89 @@ body {
     background-color: #d1a9e6;
   }
 }
-.container {
+
+header {
+  background-color: #87da8a;
+  padding: 5px;
+  text-align: center;
+  font-family: Geologica, sans-serif;
+font-size: large;
+}
+
+h1 {
+background-color: #87da8a;
+padding: 0.5px;
+}
+
+aside {
+  background-color: #87da8a;
+  padding: 20px;
+}
+.grid {
   display: grid;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
 }
 
-.box-buttons {
-  margin: 5px;
-  padding: 10px 20px;
-  border-radius: 5px;
-  border: none;
-  background-color: #8dc480;
-  color: white;
-}
-
-.box {
+.item {
   background-color: #87da8a;
   padding: 20px;
   border-radius: 10px;
-  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.item:hover {
+  background-color: #a9caaa;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.item h2 {
+  margin-top: 0;
   margin-bottom: 10px;
+}
+
+.download-button {
+  display: inline-block;
+  background-color: #0e8540;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+  background-color: #229e6e;
+}
+
+footer {
+  background-color: #87da8a;
+  padding: 5px;
+  text-align: center;
+}
+
+
+
+.custom-file-upload {
+  display: inline-block;
+  background-color: #0e8540;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.custom-file-upload:hover {
+  background-color: #229e6e;
+}
+
+.custom-file-upload i {
+  margin-right: 5px;
+}
+input {
+  display: none;
 }

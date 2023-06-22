@@ -87,3 +87,8 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
   }
+
+  download-button {
+
+    padding: 5px;
+  }
