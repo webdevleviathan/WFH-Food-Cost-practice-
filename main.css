@@ -45,12 +45,10 @@ body {
     color: white;
   }
   
-  buttons.buttons-download {
+  .buttons-download {
     background-color: #5f9c5f;
   }
-  buttons.buttons-upload{
-    background-color: #5f9c5f;
-  }
+  
   
   header, footer {
     background-color: #8dc480;
