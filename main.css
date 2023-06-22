@@ -1,17 +1,31 @@
-.container {
-  display: flex;
-  flex-wrap: wrap;
+
+body {
+  background-color: #333;
+  color: whitesmoke;
 }
 
-.box {
-  width: 25%; /* Acesta este doar un exemplu; poți ajusta dimensiunea pentru fiecare ecran */
-  padding: 10px;
-  box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@700&display=swap');
+
+
+@media screen and (max-width: 992px) {
+  body {
+    background-color: #d9b9e9;
+  }
 }
 
 @media screen and (max-width: 600px) {
-  /* Ajustează stilul pentru ecrane cu lățime maximă de 600px */
-  .box {
-      width: 50%; /* Poți ajusta dimensiunea pentru a se potrivi cu ecranul */
+  body {
+    background-color: #d1a9e6;
   }
+}
+.container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+
+  
 }
