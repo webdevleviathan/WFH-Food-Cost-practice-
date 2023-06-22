@@ -18,55 +18,54 @@ body {
 
 header {
   background-color: #87da8a;
-  padding: 5px;
+  padding: 1rem;
   text-align: center;
   font-family: Geologica, sans-serif;
-font-size: large;
+  font-size: xx-large;
+  margin:0.5rem;
+  border-radius: 0.5rem;
 }
 
 h1 {
 background-color: #87da8a;
-padding: 0.5px;
+padding: 0.5rem;
 }
 
-aside {
-  background-color: #87da8a;
-  padding: 20px;
-}
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
+  gap: 0.5rem;
 }
 
 .item {
   background-color: #87da8a;
-  padding: 20px;
-  border-radius: 10px;
-  margin-top: 10px;
-  margin-bottom: 5px;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 .item:hover {
   background-color: #a9caaa;
-  padding: 20px;
-  border-radius: 10px;
-  margin-top: 10px;
-  margin-bottom: 5px;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .item h2 {
-  margin-top: 0;
-  margin-bottom: 10px;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .download-button {
   display: inline-block;
   background-color: #0e8540;
   color: #fff;
-  padding: 10px 20px;
-  border-radius: 5px;
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.5rem;
   text-decoration: none;
   transition: background-color 0.3s ease;
+  align-items: center;
 }
 
 .download-button:hover {
@@ -75,7 +74,7 @@ aside {
 
 footer {
   background-color: #87da8a;
-  padding: 5px;
+  padding: 0.5rem;
   text-align: center;
 }
 
@@ -85,8 +84,8 @@ footer {
   display: inline-block;
   background-color: #0e8540;
   color: #fff;
-  padding: 10px 20px;
-  border-radius: 5px;
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.5rem;
   text-decoration: none;
   transition: background-color 0.3s ease;
 }
@@ -96,7 +95,7 @@ footer {
 }
 
 .custom-file-upload i {
-  margin-right: 5px;
+  margin-right: 0.5rem;
 }
 input {
   display: none;
