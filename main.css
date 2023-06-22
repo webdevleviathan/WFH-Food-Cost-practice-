@@ -60,17 +60,15 @@ body {
   }
 
   .item {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
+    background-color: #87da8a;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .item a {
-    display: grid;
+    display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
