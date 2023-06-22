@@ -65,7 +65,7 @@ body {
     margin-bottom: 10px;
 }
 
-.item a {
+.item:a {
     display: flex;
     flex-direction: row;
     justify-content: center;
